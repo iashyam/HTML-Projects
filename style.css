@@ -1,0 +1,73 @@
+
+    #header {
+        margin: 100px auto;
+        max-width: 800px;
+        box-sizing: border-box;
+        box-shadow: 0 0 10px 10px rgba(97, 97, 97, 0.2);
+        padding: 20px;
+        background-image: linear-gradient(90deg, rgb(154, 247, 250), rgb(237, 255, 220));
+    }
+
+    #wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #right-wrapper ul {
+        display: flex;
+    }
+
+    #right-wrapper ul a {
+        text-decoration: none;
+        padding: 18px;
+        font-size: larger;
+        color: blue;
+    }
+
+    #left-wrapper {
+        text-align: center;
+    }
+
+    #container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    #right-container p {
+        text-align: justify;
+        padding-right: 20px;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #btn {
+        background: transparent;
+        color: blue;
+        font-size: 14pt;
+        border: none;
+        cursor: pointer;
+        padding-left: 0%;
+    }
+
+    .fa {
+        padding: 10px;
+        font-size: 15pt;
+        transition: 0.5s;
+    }
+
+    .fa:hover{
+        transform: scale(1.2);
+    }
+
+    .fa-facebook {
+        color: darkblue;
+        padding-left: 0;
+    }
+
+    .fa-twitter {
+        color: blue;
+    }
+
+    .fa-snapchat {
+        color: darkyellow;
+    }
